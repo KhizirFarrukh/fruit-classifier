@@ -60,7 +60,7 @@ model.summary()
 history = model.fit(
     train_generator,
     validation_data=val_generator,
-    epochs=20
+    epochs=10
 )
 
 loss, acc = model.evaluate(test_generator)
